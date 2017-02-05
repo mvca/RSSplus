@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\emdev\\AndroidStudioProjects\\RSSplus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\showdescription.xml",
+        "source": "C:\\Users\\emdev\\AndroidStudioProjects\\RSSplus\\app\\src\\main\\res\\layout\\showdescription.xml"
+    },
+    {
+        "merged": "C:\\Users\\emdev\\AndroidStudioProjects\\RSSplus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\selection.xml",
+        "source": "C:\\Users\\emdev\\AndroidStudioProjects\\RSSplus\\app\\src\\main\\res\\layout\\selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\emdev\\AndroidStudioProjects\\RSSplus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\emdev\\AndroidStudioProjects\\RSSplus\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\emdev\\AndroidStudioProjects\\RSSplus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\style.xml",
+        "source": "C:\\Users\\emdev\\AndroidStudioProjects\\RSSplus\\app\\src\\main\\res\\layout\\style.xml"
+    },
+    {
+        "merged": "C:\\Users\\emdev\\AndroidStudioProjects\\RSSplus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\browser.xml",
+        "source": "C:\\Users\\emdev\\AndroidStudioProjects\\RSSplus\\app\\src\\main\\res\\layout\\browser.xml"
+    }
+]

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >  
+    
+<ScrollView
+    android:id="@+id/scroll" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#eeeeee">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical"
+    android:paddingLeft="4dip"
+    android:paddingRight="4dip"
+    android:paddingTop="4dip" >   
+    
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_top" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Please Select a Feed"
+            android:textColor="#000"
+            android:textSize="14dp" />
+
+    </TableRow>
+
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+    	android:textSize="24dp"
+    	android:paddingTop="12dip"
+    	android:paddingBottom="12dip"
+        android:text="Popular News" />
+
+     	<Button 
+		    android:id="@+id/feedselect_buttonusatop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_usatop" />
+     	<Button 
+		    android:id="@+id/feedselect_buttonmsn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_msnbc" />
+     	<Button 
+		    android:id="@+id/feedselect_buttonfox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_foxnews" /> 
+     	<Button 
+		    android:id="@+id/feedselect_buttoncbs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_cbsnews" /> 
+        <Button 
+		    android:id="@+id/feedselect_buttonabc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        	android:background="@drawable/icon_abcnews"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divider" />
+        
+        <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+    	android:textSize="24dp"
+    	android:paddingBottom="12dip"
+        android:text="World News" />
+        
+        <Button 
+			android:id="@+id/feedselect_buttonbbc"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:background="@drawable/icon_bbc"/>	  
+        <Button 
+			android:id="@+id/feedselect_buttonreuters"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:background="@drawable/icon_reuters"/>
+        <Button 
+			android:id="@+id/feedselect_buttonnpr"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:background="@drawable/icon_npr"/>
+        
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divider" />
+        
+        <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+    	android:textSize="24dp"
+    	android:paddingBottom="12dip"
+        android:text="Financial News" />
+        
+        <Button 
+			android:id="@+id/feedselect_buttonyahoof"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:background="@drawable/icon_yahoof"/>
+        <Button 
+			android:id="@+id/feedselect_buttonwsj"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:background="@drawable/icon_wsj"/>
+        <Button 
+			android:id="@+id/feedselect_buttonmarketwatch"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+            android:background="@drawable/icon_marketwatch"/>
+        
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/divider" />
+        
+        <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+    	android:textSize="24dp"
+    	android:paddingBottom="12dip"
+        android:text="Sports News" />
+        
+        <Button 
+		    android:id="@+id/feedselect_buttonusasports"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+        	android:background="@drawable/icon_usatodaysports" /> 	
+        <Button 
+		    android:id="@+id/feedselect_buttonfoxsports"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+        	android:background="@drawable/icon_foxsports" />
+        <Button 
+		    android:id="@+id/feedselect_buttonespn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+        	android:background="@drawable/icon_espn" />
+        
+</LinearLayout>
+
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" 
+    android:paddingLeft="4dip"
+    android:paddingRight="4dip"
+    android:paddingTop="4dip" >  
+    
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_top" />
+
+        <TextView
+            android:id="@+id/feedtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="#000"
+            android:textSize="14dp" />
+
+    </TableRow>
+    
+    <TextView
+            android:id="@+id/date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Last Build Date"
+            android:textColor="#000"
+            android:textSize="12dp" />
+    
+    
+	<ListView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:cacheColorHint="@android:color/transparent"
+		android:text="Article list"
+		android:id="@+id/itemlist"/>
+  
+</LinearLayout>
